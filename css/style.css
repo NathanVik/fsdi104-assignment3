@@ -1,0 +1,46 @@
+.input-container{
+    display: flex;
+    padding:1rem;
+}
+.input-container label{
+    flex-basis: 8rem;
+}
+header{
+    height: 12rem;
+    background-color: rgb(236, 250, 158);
+    color: black;
+
+}
+
+footer{
+    height: 7rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+.flex-wrapper{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+.pets{
+    width: 100%;
+}
+
+.pet{
+    
+    background-color: rgb(222, 248, 244);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.pet-block{
+    display: flex;
+    justify-content: space-between;
+}
+.pet-block button{
+    border-radius: 5px;
+    font-size: .8rem;
+}
